@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header img{
+    width: 60px;
+    margin-right: 100px;
+    /* background-color: rgb(246, 240, 237); */
+    border-radius: 12px;
+    cursor: pointer;
+    background: #ffb703
+}
+.header{
+    width: 100%;
+    display: flex;
+    background:linear-gradient(135deg,#3634d1,#0e0241);
+    align-items: center;
+    color: #ffb703;
+    /* justify-c    ; */
+    padding: 10px;
+    position: sticky;
+}
+.header h2{
+    margin: 12px 80px;
+    cursor: pointer;
+}
+.display{
+    background: url(https://voicenitjsr.org.in/static/media/welcome_background_image.e176e8bfe73dbf451e76.jpg);
+    height:auto;
+    min-height: 45vh;
+    padding-top: 10vh;
+    width: 100%;
+    box-shadow: 5px 10px 12px hsla(180, 2%, 19%, 0.889);
+}
+.logo img{
+    width: 185px;
+    /* background: #ffb703; */
+    /* margin-right:12px; */
+}
+#intro p{
+    font-size: 165px;
+    color:#023047;
+    font-family: Work Sans,sans-serif;
+    padding-left: 5vw;
+    line-height: 1;
+    margin: 0 5px;
+    text-shadow:0 4px 3px rgba(0,0,0,.674), 0 8px 13px rgba(0,0,0,.249);
+}
+#intro #title{
+    font-size: 95px;
+    color:#023047;
+    font-family: Work Sans,sans-serif;
+    padding-left: 5vw;
+    line-height: 1;
+    margin: 0 5px;
+    text-shadow:0 4px 3px rgba(0,0,0,.674), 0 8px 13px rgba(0,0,0,.249);
+    margin-left: 10%;
+}
+#intro #quote p{
+    font-size:2.2vw;
+    background: #ffb703;
+    color: aliceblue;
+    padding: 5px;
+    width: 40vw;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 12px rgba(37,112,186,.7);
+}
+/* blockquote{
+    background: #f4eac2;
+    border-left: 8px solid #382e58;
+    font-size: .85vw;
+    
+} */
