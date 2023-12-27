@@ -249,11 +249,11 @@ body{
     padding: 25px;
     box-shadow: 5px 10px 12px hsla(210,1%,52%,.884);
     text-align: start;
-    width: 22vw;
+    width: 30vw;
 }
 
 h5,p{
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     padding: 10px 0;
 }
 .event-content{
