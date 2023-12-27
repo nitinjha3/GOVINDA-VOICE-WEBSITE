@@ -124,19 +124,20 @@ body{
     margin:10px;
 }
 #about .description{
-    font-size: 18px;
+    font-size: 14px;
     padding: 10px 5px;
     /* margin: 0 auto; */
     color: #023047;
     font-weight: 540;
     font-style: oblique;
+    font-family:Quicksand,sans-serif;
 }
 .font{
     color: #023047;
     font-family: sans-serif;
     text-transform: uppercase;
     text-shadow:0 4px 3px rgba(0,0,0,.674), 0 8px 13px rgba(0,0,0,.249);
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     filter: drop-shadow(3px 3px 5px rgb(219, 170, 12));
 }
@@ -167,6 +168,19 @@ body{
     border-radius: 10px;
     font-weight: 550;
     line-height: 1;
+    filter: drop-shadow(3px 3px 5px rgb(208, 167, 56));
+}
+.highlights .highlights-items1{
+    background: #f1daa3;
+    font-size: 16px;
+    text-align:start;
+    margin-left: 10px;
+    margin-bottom: 10px;;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: 550;
+    line-height: 1;
+    width: 80%;
     filter: drop-shadow(3px 3px 5px rgb(208, 167, 56));
 }
 .social-media-container{
