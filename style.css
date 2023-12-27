@@ -22,12 +22,13 @@ body{
     width: 100%;
     display: flex;
     /* background:linear-gradient(135deg,#3634d1,#0e0241); */
-    background: rgb(209, 182, 4);
+    background: rgb(211, 196, 95);
     align-items: center;
     justify-content: space-between;
     color: #180147;
     /* justify-c    ; */
     padding:10px;
+    filter: drop-shadow(18px 18px 15px rgb(219, 170, 12));
     position: sticky;
 }
 .header img{
@@ -36,13 +37,15 @@ body{
     /* background-color: rgb(246, 240, 237); */
     border-radius: 12px;
     cursor: pointer;
-    background: #ffb703
+    background: #ffb703;
+    filter: drop-shadow(3px 3px 5px rgb(236, 232, 221));
 }
 
 .header h2{
     /* margin: 12px 80px;  */
     cursor: pointer;
     font-size: 1.8vw;
+    filter: drop-shadow(3px 3px 5px rgb(236, 232, 221));
 }
 .display{
     /* background: url(https://voicenitjsr.org.in/static/media/welcome_background_image.e176e8bfe73dbf451e76.jpg); */
@@ -68,6 +71,7 @@ body{
     padding-left: 5vw;
     line-height: 1;
     /* margin: 0 5px; */
+    filter: drop-shadow(3px 3px 5px rgb(236, 232, 221));
     text-shadow:0 4px 3px rgba(0,0,0,.674), 0 8px 13px rgba(0,0,0,.249);
 }
 #intro #title{
@@ -132,15 +136,14 @@ body{
     font-family: sans-serif;
     text-transform: uppercase;
     text-shadow:0 4px 3px rgba(0,0,0,.674), 0 8px 13px rgba(0,0,0,.249);
-    font-size: 2vw;
+    font-size: 20px;
     font-weight: 600;
+    filter: drop-shadow(3px 3px 5px rgb(219, 170, 12));
 }
 .home-left-panel{
     width: 70%;
 }
-.home-right-panel{
-    padding: 0 25px 20px;
-}
+
 .highlights{
     display: flex;
     width: 80%;
@@ -148,14 +151,15 @@ body{
 .highlights .title{
     padding: 5px;
     text-align: center;
-    font-size: 1.2vw;
+    font-size: 18px;
     font-weight: 600;
     /* display: flex; */
     width:30%;
+    filter: drop-shadow(3px 3px 5px rgb(224, 197, 123));
 }
 .highlights .highlights-items{
     background: #f1daa3;
-    font-size: 1.2vw;
+    font-size: 18px;
     text-align:start;
     margin-left: 10px;
     margin-bottom: 10px;;
@@ -163,11 +167,13 @@ body{
     border-radius: 10px;
     font-weight: 550;
     line-height: 1;
+    filter: drop-shadow(3px 3px 5px rgb(208, 167, 56));
 }
 .social-media-container{
     align-items: center; 
     /* display: flex; */
     width: 100%;
+    border-radius: 5%;
     text-align: center  ;
     justify-content: center;
     align-items: center;
@@ -175,7 +181,7 @@ body{
     /* height: 0    vh; */
     /* background: #ffb703; */
     background: url(https://i.pinimg.com/564x/c4/5d/d5/c45dd571dfac00afc4797997c3dfad58.jpg);
-
+    filter: drop-shadow(8px 8px 15px rgb(229, 233, 13));
       
 }
 /* {
@@ -194,7 +200,7 @@ body{
     gap: 10px;
   }
 .gallery-wrap button{
-    margin: 3%;
+    margin: 4%;
     background: transparent;
     border: 0cap;
     
@@ -205,22 +211,20 @@ body{
     border-radius: 20%;
     cursor: pointer;
     filter: drop-shadow(8px 8px 15px red);
-
   }
 
-  
-
   .gallery img {
-    max-width:20vw ;
+    max-width:35vw ;
     height: auto;
     display: none; /* Hide all images by default */
     transition:  transform 0.5s;
-    filter: drop-shadow(8px 8px 15px red);
-    cursor:zoom-in
+    filter: drop-shadow(8px 8px 15px rgb(109, 115, 227));
+    cursor:zoom-in;
+    border-radius: 10%;
   }
 
   .gallery img:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
     
   }
 
@@ -231,7 +235,28 @@ body{
  .image-gallery{
     width: 100%;
     padding-bottom:5%;
-    margin: 5% 0;
+    margin: 5% ;
  }
+.home-right-panel{
+    /* background-color:#023047; */
+    padding-left:25px;
+    /* margin-left: 55px; */
+}
 
+.event-container{
+    background: #ffb703;
+    min-height: 300px;
+    padding: 25px;
+    box-shadow: 5px 10px 12px hsla(210,1%,52%,.884);
+    text-align: start;
+    width: 22vw;
+}
 
+h5,p{
+    font-size: 1.25rem;
+    padding: 10px 0;
+}
+.event-content{
+        color: #023047;
+        position: relative;
+}

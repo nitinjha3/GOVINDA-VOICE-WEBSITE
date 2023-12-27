@@ -8,8 +8,8 @@ const imageNames = [
   const galleryContainer = document.getElementById('imageGallery');
   // const prevButton = document.querySelector('.controls button:first-child');
   // const nextButton = document.querySelector('.controls button:last-child');
-  const prevButton=document.getElementById('prev')
-  const nextButton=document.getElementById('next')
+  // const prevButton=document.getElementById('prev')
+  // const nextButton=document.getElementById('next')
 
   let currentIndex = 0;
 
@@ -28,13 +28,13 @@ const imageNames = [
     currentIndex = index;
 
     // Update button state
-    updateButtonState();
+    // updateButtonState();
   }
 
-  function updateButtonState() {
-    prevButton.disabled = currentIndex === 0;
-    nextButton.disabled = currentIndex === imageNames.length - 1;
-  }54
+  // function updateButtonState() {
+  //   prevButton.disabled = currentIndex === 0;
+  //   nextButton.disabled = currentIndex === imageNames.length - 1;
+  // }
 
   function prevImage() {
     if (currentIndex > 0) {
