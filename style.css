@@ -120,7 +120,7 @@ body{
     margin:10px;
 }
 #about .description{
-    font-size: 1.5vw;
+    font-size: 20px;
     padding: 10px 5px;
     /* margin: 0 auto; */
     color: #023047;
@@ -165,7 +165,9 @@ body{
     line-height: 1;
 }
 .social-media-container{
-    /* align-items: center; */
+    align-items: center; 
+    /* display: flex; */
+    width: 100%;
     text-align: center  ;
     justify-content: center;
     align-items: center;
@@ -176,54 +178,60 @@ body{
 
       
 }
-/* *{
+/* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 } */
-.gallary{
-    width:100%;
+.gallery-wrap{
     display: flex;
-    overflow-x: scroll;
-    flex-direction: row;
-    padding: 10px;
-    /* background: url(https://i.pinimg.com/564x/c4/5d/d5/c45dd571dfac00afc4797997c3dfad58.jpg); */
-}
-.gallary div{
-    width: 100%;
-    display: grid;
-    grid-template-rows: auto;
-    grid-gap: 20px;
-    padding: 10px;
-    flex:none;
-}
-.gallary div img{
-    width: 300px;
-    /* filter:  (100%); */
-    transition: transform 0.5s;
-    border-radius: 10%;
-    /* background-attachment: fixed; */
-}
-
-.gallary::-webkit-scrollbar{
-    display: none;
-}
-
-.gallary-wrap{
-    width: 80%;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 10% auto;
+    align-items: center;
 }
-#backbtn,#nextbtn{
-    width: 50px;
-    margin: 40px;
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+.gallery-wrap button{
+    margin: 3%;
+    background: transparent;
+    border: 0cap;
+    
+}
+
+  .gallery-wrap button img{
+    width: 3vw;
+    border-radius: 20%;
     cursor: pointer;
-}
-.gallary div img:hover{
-    filter: grayscale(0);
-    transform: scale(1.2);
-}
+    filter: drop-shadow(8px 8px 15px red);
+
+  }
+
+  
+
+  .gallery img {
+    max-width:20vw ;
+    height: auto;
+    display: none; /* Hide all images by default */
+    transition:  transform 0.5s;
+    filter: drop-shadow(8px 8px 15px red);
+    cursor:zoom-in
+  }
+
+  .gallery img:hover{
+    transform: scale(1.5);
+    
+  }
+
+  .gallery img.active {
+    display: block; /* Display only the active image */
+  }
+
+ .image-gallery{
+    width: 100%;
+    padding-bottom:5%;
+    margin: 5% 0;
+ }
 
 
