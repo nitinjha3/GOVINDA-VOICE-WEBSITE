@@ -121,7 +121,7 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align: justify;
-    margin:10px;
+    margin:10px 10px 25px;
 }
 #about .description{
     font-size: 14px;
@@ -192,6 +192,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 2%;
+    margin-top: 20px;
     /* height: 0    vh; */
     /* background: #ffb703; */
     background: url(https://i.pinimg.com/564x/c4/5d/d5/c45dd571dfac00afc4797997c3dfad58.jpg);
