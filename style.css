@@ -104,7 +104,7 @@ body{
     color: aliceblue;
     padding: 5px;
     width: 80vw;
-    margin-left: 10vw;
+    margin-left: 7vw;
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -157,17 +157,17 @@ body{
     filter: drop-shadow(3px 3px 5px rgb(219, 170, 12));
 }
 .home-left-panel{
-    width: 70%;
+    width: 60%;
 }
 
 .highlights{
     display: flex;
-    width: 70%;
+    width: 90%;
 }
 .highlights .title{
-    padding: 5px;
+    padding: 9px;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
     /* display: flex; */
     width:30%;
@@ -175,7 +175,7 @@ body{
 }
 .highlights .highlights-items{
     background: #f1daa3;
-    font-size: 16px;
+    font-size: 18px;
     text-align:start;
     margin-left: 10px;
     margin-bottom: 10px;;
@@ -270,7 +270,8 @@ body{
 .home-right-panel{
     /* background-color:#023047; */
     padding-left:25px;
-    /* margin-left: 55px; */
+    margin-left: 55px;
+    width: 30%;
 }
 
 .event-container{
