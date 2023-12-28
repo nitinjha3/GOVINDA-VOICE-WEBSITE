@@ -47,8 +47,12 @@
     .social-media-container{
         margin-top: 5px;
     }
+    .gallary-wrap{
+        padding: 15px 5%;
+    }
     .gallery{
         grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
+        grid-gap:10px
     }
 
 }
