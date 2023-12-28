@@ -1,0 +1,11 @@
+@media  screen and (max-width:991px) {
+    #toggle-bar{
+        font-size: 38px;
+        color: #023047;
+        display: block;
+        margin-right: 20px;
+    }
+    .header h2{
+        display: none;
+    }
+}

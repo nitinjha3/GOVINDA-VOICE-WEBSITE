@@ -36,13 +36,18 @@ body{
     position: sticky;
 }
 .header img{
-    width: 4vw;
+    width: 68px;
     /* margin-right: 100px; */
     /* background-color: rgb(246, 240, 237); */
     border-radius: 12px;
     cursor: pointer;
     background: #ffb703;
     filter: drop-shadow(3px 3px 5px rgb(236, 232, 221));
+}
+#toggle-bar{
+    font-size: 28px;
+    color: #023047;
+    display: none;
 }
 
 .header h2{
