@@ -62,7 +62,7 @@ body{
     filter: drop-shadow(3px 3px 5px rgb(236, 232, 221));
 }
 .display{
-    /* background: url(https://voicenitjsr.org.in/static/media/welcome_background_image.e176e8bfe73dbf451e76.jpg); */
+    /* background: url(https://www.iskconpune.com/wp-content/uploads/2023/01/youth-training1.jpg); */
     background: url(https://i.pinimg.com/564x/4d/36/d7/4d36d7a9e46b1c04948952652fcc6b2b.jpg);
     height:auto;
     min-height: 100vh;
@@ -210,8 +210,8 @@ body{
     margin-top: 20px;
     /* height: 0    vh; */
     /* background: #ffb703; */
-    background: url(https://i.pinimg.com/564x/c4/5d/d5/c45dd571dfac00afc4797997c3dfad58.jpg);
-    filter: drop-shadow(8px 8px 15px rgb(229, 233, 13));
+    /* background: url(https://i.pinimg.com/564x/c4/5d/d5/c45dd571dfac00afc4797997c3dfad58.jpg); */
+    filter: drop-shadow(2px 5px 5px rgb(47, 47, 39));
       
 }
 .gallary-wrap{
