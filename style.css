@@ -17,6 +17,10 @@
 body{
    width: 100%;
    background: white;
+   /* overflow: hidden; */
+}
+.container{
+    overflow: hidden;
 }
 .header{
     width: 100%;
