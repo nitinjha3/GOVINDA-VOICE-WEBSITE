@@ -247,6 +247,18 @@ body{
     text-align: start;
     width: 30vw;
 }
+.news-container{
+    background: #ffb703;
+    background: #ffb703;
+    min-height: 300px;
+    padding: 25px;
+    box-shadow: 5px 10px 12px hsla(210,1%,52%,.884);
+    text-align: center;
+    width: 30vw;
+    margin-top: 50px;
+    font-weight: 500;
+    /* font-style:oblique; */
+}
 
 h5,p{
     font-size: 1.1rem;
@@ -256,3 +268,5 @@ h5,p{
         color: #023047;
         position: relative;
 }
+
+
