@@ -44,9 +44,9 @@
         font-size: 14px;
 
     }
-    /* .social-media-container{
-        
-    } */
+    .social-media-container{
+        margin-top: 5px;
+    }
     .gallery{
         grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
     }
