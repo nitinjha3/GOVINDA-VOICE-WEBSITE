@@ -44,14 +44,11 @@
         font-size: 14px;
 
     }
-    .social-media-container{
+    /* .social-media-container{
         
+    } */
+    .gallery{
+        grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
     }
-    .gallery-wrap button img{
-        width: 25px;
-    }
-    .gallery img{
-        width: 500px;
-    
 
 }

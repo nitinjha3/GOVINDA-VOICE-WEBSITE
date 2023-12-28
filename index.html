@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="lightbox.css">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -87,10 +88,32 @@
                         Gallery
                     </div>
                     <div class="image-gallery">
-                        <div class="gallery-wrap">
+                        <!-- <div class="gallery-wrap">
                             <button onclick="prevImage()"><img src="images/back.png" alt="" id="prev"></button>
                             <div class="gallery" id="imageGallery"></div>
                             <button onclick="nextImage()"><img src="images/next.png" alt="" id="next"></button>
+                        </div> -->
+                        <div class="gallary-wrap">
+                            <div class="gallery">
+                                <a href="images/Ashutosh Pr.jpg" data-lightbox="models" data-title="Caption1">
+                                    <img src="images/Ashutosh Pr.jpg" alt="">
+                                </a>
+                                <a href="images/Ayush.jpg" data-lightbox="models" data-title="Caption2">
+                                    <img src="images/Ayush.jpg" alt="">
+                                </a>
+                                <a href="images/yatra.jpg" data-lightbox="models" data-title="Caption3">
+                                    <img src="images/yatra.jpg" alt="">
+                                </a>
+                                <a href="images/JBS.jpg" data-lightbox="models" data-title="Caption4">
+                                    <img src="images/JBS.jpg" alt="">
+                                </a>
+                                <a href="images/Prji.jpg" data-lightbox="models" data-title="Caption5">
+                                    <img src="images/Prji.jpg" alt="">
+                                </a>
+                                <a href="images/rathyatra.jpg" data-lightbox="models" data-title="Caption6">
+                                    <img src="images/rathyatra.jpg" alt="">
+                                </a>    
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -118,5 +141,6 @@
     </div>
 </div>
     <script src="script.js"></script>
+    <script src="lightbox-plus-jquery.js"></script>
 </body>
 </html>
