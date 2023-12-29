@@ -53,14 +53,26 @@ body{
     font-size: 28px;
     color: #023047;
     display: none;
+    cursor: pointer;
 }
 
-.header h2{
+.header .nav-links{
     /* margin: 12px 80px;  */
+    display: flex;
     cursor: pointer;
-    font-size: 1.8vw;
-    filter: drop-shadow(3px 3px 5px rgb(236, 232, 221));
+    justify-content: space-around;
+    flex-basis: 80vw;
+    font-size: 28px;
+    /* filter: drop-shadow(3px 3px 5px rgb(236, 232, 221)); */
 }
+a:hover {
+    color:#de4802;
+  }
+  a{
+    color: #023047;
+    text-decoration: none;
+    font-weight: 600;
+  }
 .display{
     /* background: url(https://www.iskconpune.com/wp-content/uploads/2023/01/youth-training1.jpg); */
     background: url(https://i.pinimg.com/564x/4d/36/d7/4d36d7a9e46b1c04948952652fcc6b2b.jpg);
