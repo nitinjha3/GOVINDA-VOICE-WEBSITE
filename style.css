@@ -413,4 +413,9 @@ h6{
     overflow: hidden;
 }
 
-
+.map{
+    margin-top: 50px;
+    box-shadow: 5px 10px 12px hsla(210,1%,52%,.884);
+    width: 30vw;
+    height: 350px;
+}
