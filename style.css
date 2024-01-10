@@ -434,9 +434,10 @@ h6{
     padding-bottom: 15px;
     margin: auto;
     border-radius: 8px;
+    margin: 2%;
 }
 .footer #footer-logo{
-    justify-content: space-between;
+    /* justify-content: space-between; */
     display: flex;
 }
 .footer .footer-column{
@@ -449,4 +450,7 @@ h6{
 .copyright{
     font-family: Quicksand,sans-serif;
     font-weight: 500;
+}
+.middle-container_UC{
+    min-height: 90vh;
 }
