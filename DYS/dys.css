@@ -1,0 +1,40 @@
+.content{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.dys {
+    /* background: url(https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F9a2zu1xgmhx41.jpg); */
+    margin-top: 13vh;
+    min-height: 90vh;
+    background-image:url(/images/DYS.jpg);
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dys-registration{
+    background-color: rgba(239, 237, 237, 0.8);
+    padding: 35px;
+    width: 100%;
+    margin-top:40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form{
+    border: 2px solid #ffb703;
+    border-radius: 20px;
+    padding: 15px 25px;
+    color: #023;
+    font-size:22px;
+    background: rgb(252, 253, 254);
+}
+#form:hover{
+    color: red;
+}
+.footer{
+    margin: 0;
+}
