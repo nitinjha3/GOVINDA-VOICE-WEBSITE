@@ -145,3 +145,15 @@ function incrementDigit6() {
 
   // Automatically increment every second (1000 milliseconds)
   setInterval(incrementDigit6, 100);
+
+//   
+function scrollToSection(sectionId) {
+    var offset = 100; // Set the offset from the top
+
+    var section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+    // window.scrollBy(0, -offset);
+
+  }

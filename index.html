@@ -20,10 +20,10 @@
         <div class="header">
             <a href="index.html"><img src="images/logo.png" alt=""></a>
             <div class="nav-links " id="nav-links">
-                <a href="#">About us</a>
-                <a href="#">Gallery</a>
-                <a href="#">Testimonials</a>
-                <a href="#">Events</a>
+                <a  onclick="scrollToSection('as')">About us</a>
+                <a href="#" onclick="scrollToSection('gallery')">Gallery</a>
+                <a href="#" onclick="scrollToSection('test')">Testimonials</a>
+                <a href="#" onclick="scrollToSection('event')">Events</a>
             </div>
 
             <!-- <h2>About us</h2>
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="home-main-panel">
-                <div class="home-left-panel">
+                <div class="home-left-panel" id="as">
                     <div id="about">
                         <h1 class="font">
                             About Voice
@@ -95,10 +95,10 @@
                     </div>
                     <hr>
                     <div class="social-media-container">
-                        <div class="font">
+                        <div class="font" id="gallery">
                             Gallery
                         </div>
-                        <div class="image-gallery">
+                        <div class="image-gallery" >
                             <!-- <div class="gallery-wrap">
                             <button onclick="prevImage()"><img src="images/back.png" alt="" id="prev"></button>
                             <div class="gallery" id="imageGallery"></div>
@@ -127,7 +127,7 @@
                                 </div>
                             </div>
                         </div>
-                        <hr>
+                        <hr id="test">
 
                     </div>
                     <!-- <div id="testimonial">
@@ -244,7 +244,7 @@
                     </div>
                     <!-- </div>                  -->
                 </div>
-                <div class="home-right-panel">
+                <div class="home-right-panel" id="event">
                     <div>
                         <div class="event-container">
                             <h5>Latest Events</h5>
