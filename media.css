@@ -13,8 +13,7 @@
         left: -150%;
         width: 100%;
         justify-content: center;
-        align-items: center;
-        
+        align-items: center;    
     }
     .header .active{
        left:0px;
@@ -99,5 +98,8 @@
      }
      .map{
         width: 100%;
+     }
+     .stats{
+        padding: 25px;
      }
 }
