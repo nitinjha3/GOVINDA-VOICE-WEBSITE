@@ -86,7 +86,12 @@
         font-size: 25px;
     }
     .testimonial-container{
-        width: 80vw;
+        width: 90vw;
+        height: 250px;
+        
+    }
+    .people{
+        display: none;
     }
     .user-img img{
         width: 80px;
@@ -101,5 +106,12 @@
      }
      .stats{
         padding: 25px;
+     }
+     .people h1{
+        padding-top: 7px;
+        font-size: 25px;
+     }
+     .footer-column a img .whatsapp{
+        width: 10px;
      }
 }

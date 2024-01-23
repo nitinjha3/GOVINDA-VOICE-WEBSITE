@@ -155,5 +155,4 @@ function scrollToSection(sectionId) {
       section.scrollIntoView({ behavior: 'smooth' });
     }
     // window.scrollBy(0, -offset);
-
   }
