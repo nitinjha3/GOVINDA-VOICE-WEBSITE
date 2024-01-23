@@ -41,7 +41,7 @@ body{
     /* height: px; */
 }
 .header img{
-    width: 68px;
+    width: 72px;
     /* margin-right: 100px; */
     /* background-color: rgb(246, 240, 237); */
     border-radius: 12px;
@@ -257,7 +257,6 @@ a:hover {
     margin-left: 55px;
     width: 30%;
 }
-
 .event-container{
     background: #ffb703;
     min-height: 300px;
@@ -268,7 +267,7 @@ a:hover {
 }
 .news-container{
     background: #ffb703;
-    background: #ffb703;
+    /* background: #ffb703; */
     min-height: 300px;
     padding: 25px;
     box-shadow: 5px 10px 12px hsla(210,1%,52%,.884);
@@ -486,3 +485,4 @@ h6{
 }.footer-column ul li a:hover{
     color: #d60808;
 }
+
