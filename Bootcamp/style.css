@@ -1,6 +1,10 @@
-
+.containe{
+    margin-top: 8vw;
+    background: url(https://www.visitmayapur.com/img/conch-bhavan/slider/banner-3.jpg);
+    background-size: cover;
+}
 .title{
-    background: url(https://i.pinimg.com/564x/2c/0e/d4/2c0ed43c8b8b3ed5c86387cd84cb4411.jpg);
+    /* background: url(https://i.pinimg.com/564x/2c/0e/d4/2c0ed43c8b8b3ed5c86387cd84cb4411.jpg); */
     color: rgb(226, 234, 5);
     display: flex;
     align-items: center;

@@ -1,3 +1,52 @@
 @media  screen and (max-width:551px){
-    
+    .content{
+        display:flex;
+        flex-wrap: wrap;
+        /* margin-top: 15vw; */
+    }
+    .containe{
+        margin-top: 32vw;
+    }
+    .title H1{
+        font-size: 22px;
+    }
+   
+    .left{
+        width: 100%;
+        margin:0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* font-size:25px; */
+    }
+
+    .left ul li{
+        font-size: 3vw;
+        font-style: oblique;
+        margin:10px 5px;
+        list-style-type: none;
+    }
+    .left h3{
+        margin: 15px;
+    }
+    .right{
+        width: 100%;
+        margin: 0px;
+        margin-top: 5px;
+    }
+    .right img{
+        width: 120px;
+    }
+    .right .instructor .inst1{
+        margin: 10px;
+    }
+    .right h3{
+        font-size: 4vw;
+    }
+    .right h4{
+        font-size: 2.9vw;
+    }
+    .video iframe{
+         width: 80vw;
+    }
 }
