@@ -1,0 +1,128 @@
+
+.title{
+    background: url(https://i.pinimg.com/564x/2c/0e/d4/2c0ed43c8b8b3ed5c86387cd84cb4411.jpg);
+    color: rgb(226, 234, 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+H1{
+    font-size: 5vw;
+}
+h3{
+    font-size: 3vw;
+}
+
+.footer{
+    margin: 0;
+}
+.content{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    color: rgb(239, 235, 234);
+    /* margin: 7px 12px; */
+    /* margin: 0; */
+    background: url(https://i.pinimg.com/564x/22/af/95/22af95b7ca4bcfa6f52f9370414f146b.jpg);
+}
+
+.left{
+    width: 40vw;
+    /* display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column; */
+    border: 2px solid white;
+    
+}
+.left ul li{
+    font-size: 2vw;
+    font-style: oblique;
+    margin:10px 5px;
+    list-style-type: none;
+}
+.left h3{
+    margin: 10px;
+}
+.right img{
+    width:250px;
+    border: 1px dotted yellow;
+}
+.right{
+    width: 56vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 19px;
+    border: 2px solid white;
+    
+}
+.right .instructor{
+    display: flex;
+    /* margin: 15px; */
+}
+
+.right .instructor .inst1{
+    margin: 20px;
+}
+.content2 h3{
+    font-size: 35px;
+}
+.content2{
+    width: 100%;
+    padding: 10px;
+    /* display: flex; */
+    color: rgb(239, 235, 234);
+    /* margin: 7px 12px; */
+    /* margin: 0; */
+    background: url(https://i.pinimg.com/564x/22/af/95/22af95b7ca4bcfa6f52f9370414f146b.jpg);
+    /* border: 2px solid white; */
+}
+.what{
+   border: 2px solid white;
+   
+}
+.mayapur{
+    background: url(https://www.visitmayapur.com/img/conch-bhavan/slider/banner-3.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    
+    
+    
+}
+.heading h2{
+    color: rgb(218, 247, 4);
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 50px;
+}
+.mayapur .video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pdc-registration{
+    background-color: rgba(239, 237, 237, 0.8);
+    padding: 35px;
+    width: 100%;
+    margin-top:10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#form{
+    border: 2px solid #ffb703;
+    border-radius: 20px;
+    padding: 15px 25px;
+    color: #023;
+    font-size:22px;
+    background: rgb(252, 253, 254);
+}
+#form:hover{
+    color: red;
+}
+
