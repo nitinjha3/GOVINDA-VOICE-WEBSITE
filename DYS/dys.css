@@ -38,3 +38,11 @@
 .footer{
     margin: 0;
 }
+@media screen and (max-width: 500px){
+  
+    .dys{
+    background-image: url(/images/Motivation\ Meditation\ Yoga\ Instagram\ Post.png);
+    background-size: 400px;
+    }
+    
+}

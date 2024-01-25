@@ -14,22 +14,25 @@
 </head>
 
 <body>
-    <div class="container">
+    <!-- pop up notification -->
+    <div id="overlay" class="overlay">
+        <div id="popup" class="popup">
+            <button onclick="closePopup()"><img src="images/x.gif" alt=""></button>
+            <p><img src="images/new-icon-gif-2.jpg" alt=""><a href="DYS/DYS.html">Register of JAVA Bootcamp.</a></p>
+            
+        </div>
+    </div>
+<!-- main body -->
+    <div class="container" id="content">
         <div class="header">
             <a href="index.html"><img src="images/logo.png" alt=""></a>
             <div class="nav-links " id="nav-links">
                 <a href="/">Home</a>
-                <a  onclick="scrollToSection('as')">About us</a>
+                <a onclick="scrollToSection('as')">About us</a>
                 <a href="#" onclick="scrollToSection('gallery')">Gallery</a>
                 <a href="#" onclick="scrollToSection('test')">Testimonials</a>
                 <a href="#" onclick="scrollToSection('event')">Events</a>
             </div>
-
-            <!-- <h2>About us</h2>
-        <h2>Gallary</h2>
-        <h2>Testimonials</h2>
-        <h2>Events</h2> -->
-            <!-- <h2>Events</h2> -->
             <i class="fa fa-bars" id="toggle-bar"></i>
         </div>
         <div class="middle-container">
@@ -97,7 +100,7 @@
                         <div class="font" id="gallery">
                             Gallery
                         </div>
-                        <div class="image-gallery" >
+                        <div class="image-gallery">
                             <!-- <div class="gallery-wrap">
                             <button onclick="prevImage()"><img src="images/back.png" alt="" id="prev"></button>
                             <div class="gallery" id="imageGallery"></div>
@@ -251,7 +254,8 @@
                             <div class="event-content">
                                 <div>
                                     <p>
-                                        <a href="DYS/DYS.html" style="color: black;">Click to register for DYS Course</a>
+                                        <a href="DYS/DYS.html" style="color: black;">Click to register for DYS
+                                            Course</a>
                                     </p>
                                 </div>
                             </div>

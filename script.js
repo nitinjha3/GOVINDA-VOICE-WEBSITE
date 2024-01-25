@@ -156,3 +156,21 @@ function scrollToSection(sectionId) {
     }
     // window.scrollBy(0, -offset);
   }
+
+
+  // popup
+const container=document.getElementById('content')
+  document.addEventListener('DOMContentLoaded', function() {
+    // Show the popup on page load
+    document.getElementById('overlay').style.display = 'flex';
+    // Disable other content
+    container.classList.add('disable-content');
+});
+
+function closePopup() {
+    // Hide the popup when the close button is clicked
+    document.getElementById('overlay').style.display = 'none';
+    // Enable other content
+    container.classList.remove('disable-content');
+}
+
