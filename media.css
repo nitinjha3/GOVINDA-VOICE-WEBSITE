@@ -114,4 +114,9 @@
      .footer-column a img .whatsapp{
         width: 10px;
      }
+     .popup p{
+        font-size: 15px;
+        padding: 10px;
+        width: 80vw;
+     }
 }
