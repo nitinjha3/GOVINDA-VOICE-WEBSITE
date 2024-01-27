@@ -52,7 +52,8 @@ h3{
 }
 .right img{
     width:250px;
-    border: 1px dotted yellow;
+    /* border: 1px dotted yellow; */
+    height: 25vh;
 }
 .right{
     width: 56vw;
@@ -128,5 +129,8 @@ h3{
 }
 #form:hover{
     color: red;
+}
+.disable-scroll{
+    overflow: hidden;
 }
 

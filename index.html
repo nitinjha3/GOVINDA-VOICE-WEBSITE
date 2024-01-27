@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=1>">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="lightbox.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,11 +17,12 @@
     <!-- pop up notification -->
     <div id="overlay" class="overlay">
         <div id="popup" class="popup">
-            <button onclick="closePopup()"><img src="images/x.gif" alt=""></button>
-            <p><img src="images/new-icon-gif-2.jpg" alt=""><a href="Bootcamp/index.html">Register of Personality Development Course.</a></p>            
+            <!-- <button onclick="closePopup()"><img src="images/x.gif" alt=""></button> -->
+            <img src="images/x.gif" alt="" onclick="closePopup()" id="img">
+            <a href="Bootcamp/index.html"><img id="new" src="images/new-icon-gif-2.jpg" alt="">Register of Personality Development Course.</a></p>            
         </div>
     </div>
-<!-- main body -->
+<!-- main body -->  
     <div class="container" id="content">
         <div class="header">
             <a href="index.html"><img src="images/logo.png" alt=""></a>

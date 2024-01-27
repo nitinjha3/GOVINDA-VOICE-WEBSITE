@@ -161,16 +161,17 @@ function scrollToSection(sectionId) {
   // popup
 const container=document.getElementById('content')
   document.addEventListener('DOMContentLoaded', function() {
-    // Show the popup on page load
-    document.getElementById('overlay').style.display = 'flex';
-    // Disable other content
+    setTimeout(()=>{
+      document.getElementById('overlay').style.display = 'flex';
     container.classList.add('disable-content');
+    document.body.classList.add('disable-scroll');
+    },2000)
 });
 
 function closePopup() {
-    // Hide the popup when the close button is clicked
     document.getElementById('overlay').style.display = 'none';
-    // Enable other content
+    document.body.classList.remove('disable-scroll');
     container.classList.remove('disable-content');
+    
 }
 
