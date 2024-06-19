@@ -23,14 +23,13 @@ body{
     overflow: hidden;
 }
 .header{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     /* background:linear-gradient(135deg,#3634d1,#0e0241); */
     background: rgb(244, 227, 116);
     align-items: center;
     justify-content: space-between;
     color: #180147;
-    /* justify-c    ; */
     padding:10px;
     filter: drop-shadow(10px 12px 10px rgb(217, 192, 108));
     position: fixed;
@@ -127,12 +126,6 @@ a:hover {
     border-radius: 10px;
     box-shadow: 5px 10px 12px rgba(37,112,186,.7);
 }
-/* blockquote{
-    background: #f4eac2;
-    border-left: 8px solid #382e58;
-    font-size: .85vw;
-    
-} */
 
 .home-main-panel{
     display: flex;
@@ -184,7 +177,6 @@ a:hover {
     text-align: center;
     font-size: 22px;
     font-weight: 600;
-    /* display: flex; */
     width:30%;
     filter: drop-shadow(3px 3px 5px rgb(224, 197, 123));
 }
@@ -220,13 +212,9 @@ a:hover {
     border-radius: 5%;
     text-align: center  ;
     justify-content: center;
-    align-items: center;
     padding-bottom: 25px;
     margin: 2%;
     margin-top: 20px;
-    /* height: 0    vh; */
-    /* background: #ffb703; */
-    /* background: url(https://i.pinimg.com/564x/c4/5d/d5/c45dd571dfac00afc4797997c3dfad58.jpg); */
     filter: drop-shadow(2px 5px 5px rgb(47, 47, 39));
       
 }
@@ -434,7 +422,7 @@ h6{
     max-width: 320px;
     background: #5540a7;
     padding-bottom: 15px;
-    margin: auto;
+    /* margin: auto; */
     border-radius: 8px;
     margin: 2%;
 }
@@ -490,10 +478,6 @@ h6{
 
 
  /* popup */
- body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-}
 
 .overlay {
     display: none;
@@ -521,29 +505,31 @@ h6{
     cursor: pointer;
     text-align: start;
 }
-
-.popup button img{
-   /* background-color: #d60808; */
-   /* color:white ; */
+ #img {
    width: 55px;
-   /* padding: 2px; */
+   padding: 2px;
    border-radius: 50%;
-   /* margin-bottom: 15px; */
+   margin-bottom: 15px;
    position: absolute;
    right: 5px;
    top: 3px;
    cursor: pointer;
 }
-.popup button{
+/* .popup  button img{
+    width: 35px;
+} */
+/* .popup button{
     margin-bottom: 15px;
     border-radius: 50%;
-}
-.popup p{
+} */
+.popup a{
     display: flex;
     align-items: center;
+    margin-top: 25px;
+    font-size: 20px;
 }
 
-.popup p img{
+.overlay .popup #new{
     width:45px;
     /* color: #d60808; */
     margin-right:8px;
@@ -552,5 +538,8 @@ h6{
 
 .disable-content {
     pointer-events: none;
+}
+.disable-scroll{
+    overflow: hidden;
 }
 
