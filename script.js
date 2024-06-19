@@ -58,6 +58,7 @@ setInterval(function () {
 }, 5000);
 
 
+
 //stats increasing
 function incrementDigit() {
     var counterElement = document.getElementById('1');
@@ -158,8 +159,9 @@ function scrollToSection(sectionId) {
   }
 
 
-  // popup
+  // popupx`
 const container=document.getElementById('content')
+
   document.addEventListener('DOMContentLoaded', function() {
     // Show the popup on page load
     document.getElementById('overlay').style.display = 'flex';
